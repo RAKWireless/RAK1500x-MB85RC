@@ -4,7 +4,7 @@
 	"keywords": [
 		"FRAM",
 		"RAKWireless",
-		"WisBlock",
+		"WisBlock"
 	],
 	"description": "RAKWireless library for the FRAM",
 	"frameworks": [
