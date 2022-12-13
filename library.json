@@ -1,0 +1,30 @@
+{
+	"name": "RAK1500x-MB85RC",
+	"version": "1.0.0",
+	"keywords": [
+		"FRAM",
+		"RAKWireless",
+		"WisBlock",
+	],
+	"description": "RAKWireless library for the FRAM",
+	"frameworks": [
+		"arduino"
+	],
+	"platforms": [
+		"*"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"email": "clark.li@rakwireless.com",
+			"url": "https://rakwireless.com",
+			"maintainer": true,
+			"name": "Clark Li"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/RAKWireless/RAK1500x-MB85RC"
+	},
+	"homepage": "https://rakwireless.com"
+}
