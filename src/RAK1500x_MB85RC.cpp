@@ -64,10 +64,11 @@ bool RAK_MB85RC::begin(TwoWire &wirePort, uint8_t deviceAddress)
 void RAK_MB85RC::getID(uint16_t *manuID, uint16_t *prodID)
 {
   uint8_t date[3] = {0};
+  uint8_t deviceAddress = _deviceAddress;
 
   _i2cPort->beginTransmission(0x7C); // Setting up i2c connection.
   
-  _i2cPort->write(0xAC);
+  _i2cPort->write(deviceAddress * 2);
 
   _i2cPort->endTransmission(false); 
   
